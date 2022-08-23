@@ -1,0 +1,52 @@
+.promo {
+    background: url(../img/bg/top_bg.jpg) center center/cover no-repeat;
+    min-height: 650px;
+    padding: 20px 0 90px 0;
+    &__direction {
+        @include align_right
+    }
+    &__title {
+        font-family: 'Museo Sans Cyrl 700';
+        text-transform: uppercase;
+        color: #FFFFFF;
+        font-size: 42px;
+        margin-top: 90px;
+    }
+    &__subtitle {
+        font-size: 24.5px;
+        color: #FFFFFF;
+        text-transform: uppercase;
+    }
+    &__block {
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-between;
+        width: 425px;
+    }
+    &__item {
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+    }
+    &__item_descr {
+        font-family: 'Museo Sans Cyrl 100';
+        font-size: 14px;
+        line-height: 14px;
+        color: #FFFFFF;
+        text-align: center;
+        margin-top: 20px;
+    }
+    .button__size_lg {
+        margin-top: 65px;
+    }
+    &__link_catalog {
+        font-size: 16px;
+        color: #FFFFFF;
+        margin-top: 15px;
+        a {
+            color: #FFFFFF;
+        }
+    }
+}
+
